@@ -1,0 +1,60 @@
+img {
+  width: 500px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner {
+  border: 3px solid #e1e0e2;
+}
+
+.banner h1 {
+  font-size: 0.8em;
+}
+
+.scoreKeeper {
+  width: 500px;
+  border: 3px solid #e1e0e2;
+}
+
+.scoreKeeper h3 {
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+.scoreKeeper p {
+  font-weight: bold;
+}
+
+.scoreKeeper p input {
+  width: 2.5em;
+  border-radius: 40%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons .p1button {
+  flex: 1;
+}
+
+.buttons .p2button {
+  flex: 1;
+}
+
+.buttons .resetButton {
+  flex: 1;
+}
+
+.winning-score {
+  color: rgb(103, 207, 103);
+}
+.losing-score {
+  color: rgb(255, 65, 65);
+}
